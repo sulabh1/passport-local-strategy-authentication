@@ -1,0 +1,31 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "bcrypt": "^5.0.1",
+    "connect-pg-simple": "^6.2.1",
+    "connect-session-sequelize": "^7.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "randomstring": "^1.2.1",
+    "sequelize": "^6.6.5",
+    "sequelize-transforms": "^2.0.0"
+  }
+}
